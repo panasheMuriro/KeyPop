@@ -8,8 +8,8 @@ export default defineConfig({
     plugins: [react(), tailwindcss(), VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: 'Bible Verse Scramble',
-        short_name: 'BibleVS',
+        name: 'KeyPop',
+        short_name: 'KeyPop',
         start_url: '/',
         display: 'standalone',
         background_color: '#ffffff',
